@@ -29,6 +29,12 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('password')
         ]);
 
+        User::create([
+            'name' => 'Adi',
+            'nim' => '215150707111011',
+            'password' => bcrypt('password')
+        ]);
+
         // Course Seeder
         $course1 = Course::create([
             'name' => 'Bahasa Inggris'
